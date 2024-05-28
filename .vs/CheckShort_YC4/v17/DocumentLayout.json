@@ -1,0 +1,265 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B248E477-ABF2-41A5-B44A-3426BA85F676}|CheckShort_YC4.csproj|c:\\users\\u42107\\desktop\\thanhdx\\thanh_project\\34.check short yc4\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B248E477-ABF2-41A5-B44A-3426BA85F676}|CheckShort_YC4.csproj|solutionrelative:formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B248E477-ABF2-41A5-B44A-3426BA85F676}|CANON_Initialize_Boards.csproj|C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B248E477-ABF2-41A5-B44A-3426BA85F676}|CANON_Initialize_Boards.csproj|solutionrelative:formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B248E477-ABF2-41A5-B44A-3426BA85F676}|CANON_Initialize_Boards.csproj|C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\formtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B248E477-ABF2-41A5-B44A-3426BA85F676}|CANON_Initialize_Boards.csproj|solutionrelative:formtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B248E477-ABF2-41A5-B44A-3426BA85F676}|CANON_Initialize_Boards.csproj|C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\formtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B248E477-ABF2-41A5-B44A-3426BA85F676}|CANON_Initialize_Boards.csproj|solutionrelative:formtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B248E477-ABF2-41A5-B44A-3426BA85F676}|CANON_Initialize_Boards.csproj|C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\entities\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B248E477-ABF2-41A5-B44A-3426BA85F676}|CANON_Initialize_Boards.csproj|solutionrelative:entities\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B248E477-ABF2-41A5-B44A-3426BA85F676}|CANON_Initialize_Boards.csproj|C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\entities\\commport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B248E477-ABF2-41A5-B44A-3426BA85F676}|CANON_Initialize_Boards.csproj|solutionrelative:entities\\commport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B248E477-ABF2-41A5-B44A-3426BA85F676}|CANON_Initialize_Boards.csproj|C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\ultils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B248E477-ABF2-41A5-B44A-3426BA85F676}|CANON_Initialize_Boards.csproj|solutionrelative:ultils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B248E477-ABF2-41A5-B44A-3426BA85F676}|CANON_Initialize_Boards.csproj|C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\formmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B248E477-ABF2-41A5-B44A-3426BA85F676}|CANON_Initialize_Boards.csproj|solutionrelative:formmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B248E477-ABF2-41A5-B44A-3426BA85F676}|CANON_Initialize_Boards.csproj|C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\formconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B248E477-ABF2-41A5-B44A-3426BA85F676}|CANON_Initialize_Boards.csproj|solutionrelative:formconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B248E477-ABF2-41A5-B44A-3426BA85F676}|CANON_Initialize_Boards.csproj|C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\formconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B248E477-ABF2-41A5-B44A-3426BA85F676}|CANON_Initialize_Boards.csproj|solutionrelative:formconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B248E477-ABF2-41A5-B44A-3426BA85F676}|CANON_Initialize_Boards.csproj|C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B248E477-ABF2-41A5-B44A-3426BA85F676}|CANON_Initialize_Boards.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B248E477-ABF2-41A5-B44A-3426BA85F676}|CANON_Initialize_Boards.csproj|C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\business\\umeshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B248E477-ABF2-41A5-B44A-3426BA85F676}|CANON_Initialize_Boards.csproj|solutionrelative:business\\umeshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B248E477-ABF2-41A5-B44A-3426BA85F676}|CANON_Initialize_Boards.csproj|C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\business\\stringextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B248E477-ABF2-41A5-B44A-3426BA85F676}|CANON_Initialize_Boards.csproj|solutionrelative:business\\stringextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B248E477-ABF2-41A5-B44A-3426BA85F676}|CANON_Initialize_Boards.csproj|C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\mastercheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B248E477-ABF2-41A5-B44A-3426BA85F676}|CANON_Initialize_Boards.csproj|solutionrelative:mastercheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B248E477-ABF2-41A5-B44A-3426BA85F676}|CANON_Initialize_Boards.csproj|C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\formtest.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B248E477-ABF2-41A5-B44A-3426BA85F676}|CANON_Initialize_Boards.csproj|solutionrelative:formtest.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormMain.cs",
+              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\FormMain.cs",
+              "RelativeDocumentMoniker": "FormMain.cs",
+              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\FormMain.cs",
+              "RelativeToolTip": "FormMain.cs",
+              "ViewState": "AQIAAFUBAAAAAAAAAAAUwGQBAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T03:07:53.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\FormMain.cs",
+              "RelativeDocumentMoniker": "FormMain.cs",
+              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\9.CANON_Initialize_Boards\\FormMain.cs [Design]",
+              "RelativeToolTip": "..\\9.CANON_Initialize_Boards\\FormMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T03:07:45.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormConfig.cs",
+              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\FormConfig.cs",
+              "RelativeDocumentMoniker": "FormConfig.cs",
+              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\FormConfig.cs",
+              "RelativeToolTip": "FormConfig.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAIwFwAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T03:02:50.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Ultils.cs",
+              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\Ultils.cs",
+              "RelativeDocumentMoniker": "Ultils.cs",
+              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\Ultils.cs",
+              "RelativeToolTip": "Ultils.cs",
+              "ViewState": "AQIAAKUAAAAAAAAAAAAcwLAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T01:07:33.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StringExtension.cs",
+              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\Business\\StringExtension.cs",
+              "RelativeDocumentMoniker": "Business\\StringExtension.cs",
+              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\Business\\StringExtension.cs",
+              "RelativeToolTip": "Business\\StringExtension.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAwwGEAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T01:38:12.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormMain.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\FormMain.Designer.cs",
+              "RelativeDocumentMoniker": "FormMain.Designer.cs",
+              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\FormMain.Designer.cs",
+              "RelativeToolTip": "FormMain.Designer.cs",
+              "ViewState": "AQIAAJ8BAAAAAAAAAAAmwL0BAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T02:56:22.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CommPort.cs",
+              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\Entities\\CommPort.cs",
+              "RelativeDocumentMoniker": "Entities\\CommPort.cs",
+              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\Entities\\CommPort.cs",
+              "RelativeToolTip": "Entities\\CommPort.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAIAwwFgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T03:34:00.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Settings.cs",
+              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\Entities\\Settings.cs",
+              "RelativeDocumentMoniker": "Entities\\Settings.cs",
+              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\Entities\\Settings.cs",
+              "RelativeToolTip": "Entities\\Settings.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAIwB0AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T08:10:33.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormTest.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\FormTest.cs",
+              "RelativeDocumentMoniker": "FormTest.cs",
+              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\9.CANON_Initialize_Boards\\FormTest.cs [Design]",
+              "RelativeToolTip": "..\\9.CANON_Initialize_Boards\\FormTest.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T03:30:48.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormTest.cs",
+              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\FormTest.cs",
+              "RelativeDocumentMoniker": "FormTest.cs",
+              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\FormTest.cs",
+              "RelativeToolTip": "FormTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T03:30:50.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MasterCheck.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\MasterCheck.cs",
+              "RelativeDocumentMoniker": "MasterCheck.cs",
+              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\9.CANON_Initialize_Boards\\MasterCheck.cs [Design]",
+              "RelativeToolTip": "..\\9.CANON_Initialize_Boards\\MasterCheck.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T01:01:48.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormConfig.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\FormConfig.cs",
+              "RelativeDocumentMoniker": "FormConfig.cs",
+              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\9.CANON_Initialize_Boards\\FormConfig.cs [Design]",
+              "RelativeToolTip": "..\\9.CANON_Initialize_Boards\\FormConfig.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T03:02:05.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UmesHelper.cs",
+              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\Business\\UmesHelper.cs",
+              "RelativeDocumentMoniker": "Business\\UmesHelper.cs",
+              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\Business\\UmesHelper.cs",
+              "RelativeToolTip": "Business\\UmesHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T02:58:12.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:54:14.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FormTest.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\FormTest.Designer.cs",
+              "RelativeDocumentMoniker": "FormTest.Designer.cs",
+              "ToolTip": "C:\\Users\\u42107\\Desktop\\ThanhDX\\Thanh_Project\\34.Check short YC4\\FormTest.Designer.cs",
+              "RelativeToolTip": "FormTest.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:52:39.701Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

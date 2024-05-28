@@ -1,0 +1,42 @@
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\bin\Debug\Newtonsoft.Json.dll
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\bin\Debug\Newtonsoft.Json.xml
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\obj\Debug\CheckShort_YC4.csproj.AssemblyReference.cache
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\obj\Debug\CheckShort_YC4.csproj.GenerateResource.cache
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\obj\Debug\CheckShort_YC4.csproj.CoreCompileInputs.cache
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\obj\Debug\CheckSho.763ED4F2.Up2Date
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\obj\Debug\CheckShort_YC4.FormConfig.resources
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\obj\Debug\CheckShort_YC4.FormMain.resources
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\obj\Debug\CheckShort_YC4.FormTest.resources
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\obj\Debug\CheckShort_YC4.fMasterCheck.resources
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\bin\Debug\CheckShort_YC4.exe.config
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\bin\Debug\CheckShort_YC4.exe.manifest
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\bin\Debug\CheckShort_YC4.application
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\bin\Debug\CheckShort_YC4.exe
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\bin\Debug\CheckShort_YC4.pdb
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\obj\Debug\CheckShort_YC4.Properties.Resources.resources
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\obj\Debug\CheckShort_YC4.TrustInfo.xml
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\obj\Debug\CheckShort_YC4.exe.manifest
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\obj\Debug\CheckShort_YC4.application
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\obj\Debug\CheckShort_YC4.exe
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\obj\Debug\CheckShort_YC4.pdb
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\34.Check short YC4\bin\Debug\CheckShort_YC4.exe.config
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\34.Check short YC4\bin\Debug\CheckShort_YC4.exe.manifest
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\34.Check short YC4\bin\Debug\CheckShort_YC4.application
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\34.Check short YC4\bin\Debug\CheckShort_YC4.exe
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\34.Check short YC4\bin\Debug\CheckShort_YC4.pdb
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\34.Check short YC4\bin\Debug\Newtonsoft.Json.dll
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\34.Check short YC4\bin\Debug\Newtonsoft.Json.xml
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\34.Check short YC4\obj\Debug\CheckShort_YC4.csproj.AssemblyReference.cache
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\34.Check short YC4\obj\Debug\CheckShort_YC4.FormConfig.resources
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\34.Check short YC4\obj\Debug\CheckShort_YC4.FormMain.resources
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\34.Check short YC4\obj\Debug\CheckShort_YC4.FormTest.resources
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\34.Check short YC4\obj\Debug\CheckShort_YC4.fMasterCheck.resources
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\34.Check short YC4\obj\Debug\CheckShort_YC4.Properties.Resources.resources
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\34.Check short YC4\obj\Debug\CheckShort_YC4.csproj.GenerateResource.cache
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\34.Check short YC4\obj\Debug\CheckShort_YC4.csproj.CoreCompileInputs.cache
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\34.Check short YC4\obj\Debug\CheckShort_YC4.TrustInfo.xml
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\34.Check short YC4\obj\Debug\CheckShort_YC4.exe.manifest
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\34.Check short YC4\obj\Debug\CheckShort_YC4.application
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\34.Check short YC4\obj\Debug\CheckSho.763ED4F2.Up2Date
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\34.Check short YC4\obj\Debug\CheckShort_YC4.exe
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\34.Check short YC4\obj\Debug\CheckShort_YC4.pdb

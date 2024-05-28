@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="urn:schemas-microsoft-com:windows:storage:mapping:CS">
+  <EntityContainerMapping StorageEntityContainer="RankLEDModelStoreContainer" CdmEntityContainer="RankLedConn">
+    <EntitySetMapping Name="Tbl_RankControl">
+      <EntityTypeMapping TypeName="RankLEDModel.Tbl_RankControl">
+        <MappingFragment StoreEntitySet="Tbl_RankControl">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="Customer" ColumnName="Customer" />
+          <ScalarProperty Name="Qty" ColumnName="Qty" />
+          <ScalarProperty Name="FaceNo" ColumnName="FaceNo" />
+          <ScalarProperty Name="WOSMTA" ColumnName="WOSMTA" />
+          <ScalarProperty Name="WOSMTB" ColumnName="WOSMTB" />
+          <ScalarProperty Name="WOFAT" ColumnName="WOFAT" />
+          <ScalarProperty Name="PC_Member" ColumnName="PC_Member" />
+          <ScalarProperty Name="LED_Rank" ColumnName="LED_Rank" />
+          <ScalarProperty Name="RES_Rank" ColumnName="RES_Rank" />
+          <ScalarProperty Name="BomNo" ColumnName="BomNo" />
+          <ScalarProperty Name="OpenBomStatus" ColumnName="OpenBomStatus" />
+          <ScalarProperty Name="DM_Member" ColumnName="DM_Member" />
+          <ScalarProperty Name="SMTProductDate" ColumnName="SMTProductDate" />
+          <ScalarProperty Name="FATProductDate" ColumnName="FATProductDate" />
+          <ScalarProperty Name="RunWOstatus" ColumnName="RunWOstatus" />
+          <ScalarProperty Name="IssueWOstatus" ColumnName="IssueWOstatus" />
+          <ScalarProperty Name="WOstatus" ColumnName="WOstatus" />
+          <ScalarProperty Name="MC_CheckDate" ColumnName="MC_CheckDate" />
+          <ScalarProperty Name="MC_Member" ColumnName="MC_Member" />
+          <ScalarProperty Name="WH_LazerStatus" ColumnName="WH_LazerStatus" />
+          <ScalarProperty Name="PDA_BOM_No" ColumnName="PDA_BOM_No" />
+          <ScalarProperty Name="PCB_BarcodeNo" ColumnName="PCB_BarcodeNo" />
+          <ScalarProperty Name="SMTStarting" ColumnName="SMTStarting" />
+          <ScalarProperty Name="SMT_Leader" ColumnName="SMT_Leader" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,62 @@
+D:\DEV\Works UMC\UMC Projects\CANON_Initialize_Boards\obj\Debug\CANON_Initialize_Boards.csprojAssemblyReference.cache
+D:\DEV\Works UMC\UMC Projects\CANON_Initialize_Boards\obj\Debug\CANON_Initialize_Boards.FormMain.resources
+D:\DEV\Works UMC\UMC Projects\CANON_Initialize_Boards\obj\Debug\CANON_Initialize_Boards.Properties.Resources.resources
+D:\DEV\Works UMC\UMC Projects\CANON_Initialize_Boards\obj\Debug\CANON_Initialize_Boards.csproj.GenerateResource.cache
+D:\DEV\Works UMC\UMC Projects\CANON_Initialize_Boards\obj\Debug\CANON_Initialize_Boards.csproj.CoreCompileInputs.cache
+D:\DEV\Works UMC\UMC Projects\CANON_Initialize_Boards\bin\Debug\CANON_Initialize_Boards.exe.config
+D:\DEV\Works UMC\UMC Projects\CANON_Initialize_Boards\bin\Debug\CANON_Initialize_Boards.exe
+D:\DEV\Works UMC\UMC Projects\CANON_Initialize_Boards\bin\Debug\CANON_Initialize_Boards.pdb
+D:\DEV\Works UMC\UMC Projects\CANON_Initialize_Boards\obj\Debug\CANON_Initialize_Boards.exe
+D:\DEV\Works UMC\UMC Projects\CANON_Initialize_Boards\obj\Debug\CANON_Initialize_Boards.pdb
+D:\DEV\Works UMC\UMC Projects\CANON_Initialize_Boards\obj\Debug\CANON_Initialize_Boards.FormConfig.resources
+D:\DEV\Works UMC\UMC Projects\CANON_Initialize_Boards\bin\Debug\CANON_Initialize_Boards.exe.manifest
+D:\DEV\Works UMC\UMC Projects\CANON_Initialize_Boards\bin\Debug\CANON_Initialize_Boards.application
+D:\DEV\Works UMC\UMC Projects\CANON_Initialize_Boards\obj\Debug\CANON_Initialize_Boards.exe.manifest
+D:\DEV\Works UMC\UMC Projects\CANON_Initialize_Boards\obj\Debug\CANON_Initialize_Boards.application
+D:\DEV\Works UMC\UMC Projects\CANON_Initialize_Boards\obj\Debug\CANON_Initialize_Boards.FormModels.resources
+D:\DEV\Works UMC\UMC Projects\CANON_Initialize_Boards\bin\Debug\Newtonsoft.Json.dll
+D:\DEV\Works UMC\UMC Projects\CANON_Initialize_Boards\bin\Debug\Newtonsoft.Json.xml
+D:\DEV\Works UMC\UMC Projects\CANON_Initialize_Boards\obj\Debug\CANON_Initialize_Boards.csproj.CopyComplete
+D:\DEV\Works UMC\UMC Projects\CANON_Initialize_Boards\bin\Debug\LiteDB.dll
+D:\DEV\Works UMC\UMC Projects\CANON_Initialize_Boards\bin\Debug\LiteDB.xml
+D:\u16354 (cuongpv)\Works UMC\UMC Projects\CANON_Initialize_Boards\obj\Debug\CANON_Initialize_Boards.FormConfig.resources
+D:\u16354 (cuongpv)\Works UMC\UMC Projects\CANON_Initialize_Boards\obj\Debug\CANON_Initialize_Boards.FormMain.resources
+D:\u16354 (cuongpv)\Works UMC\UMC Projects\CANON_Initialize_Boards\obj\Debug\CANON_Initialize_Boards.Properties.Resources.resources
+D:\u16354 (cuongpv)\Works UMC\UMC Projects\CANON_Initialize_Boards\obj\Debug\CANON_Initialize_Boards.csproj.GenerateResource.cache
+D:\u16354 (cuongpv)\Works UMC\UMC Projects\CANON_Initialize_Boards\obj\Debug\CANON_Initialize_Boards.csproj.CoreCompileInputs.cache
+D:\u16354 (cuongpv)\Works UMC\UMC Projects\CANON_Initialize_Boards\bin\Debug\Station Initialize Boards.exe.config
+D:\u16354 (cuongpv)\Works UMC\UMC Projects\CANON_Initialize_Boards\bin\Debug\Station Initialize Boards.exe.manifest
+D:\u16354 (cuongpv)\Works UMC\UMC Projects\CANON_Initialize_Boards\bin\Debug\Station Initialize Boards.application
+D:\u16354 (cuongpv)\Works UMC\UMC Projects\CANON_Initialize_Boards\bin\Debug\Station Initialize Boards.exe
+D:\u16354 (cuongpv)\Works UMC\UMC Projects\CANON_Initialize_Boards\bin\Debug\Station Initialize Boards.pdb
+D:\u16354 (cuongpv)\Works UMC\UMC Projects\CANON_Initialize_Boards\bin\Debug\Newtonsoft.Json.dll
+D:\u16354 (cuongpv)\Works UMC\UMC Projects\CANON_Initialize_Boards\bin\Debug\Newtonsoft.Json.xml
+D:\u16354 (cuongpv)\Works UMC\UMC Projects\CANON_Initialize_Boards\obj\Debug\Station Initialize Boards.TrustInfo.xml
+D:\u16354 (cuongpv)\Works UMC\UMC Projects\CANON_Initialize_Boards\obj\Debug\Station Initialize Boards.exe.manifest
+D:\u16354 (cuongpv)\Works UMC\UMC Projects\CANON_Initialize_Boards\obj\Debug\Station Initialize Boards.application
+D:\u16354 (cuongpv)\Works UMC\UMC Projects\CANON_Initialize_Boards\obj\Debug\CANON_Initialize_Boards.csproj.CopyComplete
+D:\u16354 (cuongpv)\Works UMC\UMC Projects\CANON_Initialize_Boards\obj\Debug\Station Initialize Boards.exe
+D:\u16354 (cuongpv)\Works UMC\UMC Projects\CANON_Initialize_Boards\obj\Debug\Station Initialize Boards.pdb
+D:\u16354 (cuongpv)\Works UMC\UMC Projects\CANON_Initialize_Boards\obj\Debug\CANON_Initialize_Boards.fMasterCheck.resources
+D:\u16354 (cuongpv)\Works UMC\UMC Projects\CANON_Initialize_Boards\obj\Debug\CANON_Initialize_Boards.csproj.AssemblyReference.cache
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\bin\Debug\Station Initialize Boards.exe.config
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\bin\Debug\Station Initialize Boards.exe.manifest
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\bin\Debug\Station Initialize Boards.application
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\bin\Debug\Station Initialize Boards.exe
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\bin\Debug\Station Initialize Boards.pdb
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\bin\Debug\Newtonsoft.Json.dll
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\bin\Debug\Newtonsoft.Json.xml
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\obj\Debug\CANON_Initialize_Boards.csproj.AssemblyReference.cache
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\obj\Debug\CANON_Initialize_Boards.FormConfig.resources
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\obj\Debug\CANON_Initialize_Boards.FormMain.resources
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\obj\Debug\CANON_Initialize_Boards.fMasterCheck.resources
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\obj\Debug\CANON_Initialize_Boards.Properties.Resources.resources
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\obj\Debug\CANON_Initialize_Boards.csproj.GenerateResource.cache
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\obj\Debug\CANON_Initialize_Boards.csproj.CoreCompileInputs.cache
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\obj\Debug\Station Initialize Boards.TrustInfo.xml
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\obj\Debug\Station Initialize Boards.exe.manifest
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\obj\Debug\Station Initialize Boards.application
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\obj\Debug\CANON_In.91270DC3.Up2Date
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\obj\Debug\Station Initialize Boards.exe
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\obj\Debug\Station Initialize Boards.pdb
+C:\Users\u42107\Desktop\ThanhDX\Thanh_Project\9.CANON_Initialize_Boards\obj\Debug\CANON_Initialize_Boards.FormTest.resources

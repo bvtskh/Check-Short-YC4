@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B248E477-ABF2-41A5-B44A-3426BA85F676}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CheckShort_YC4</RootNamespace>
+    <AssemblyName>CheckShort_YC4</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+    <PublishUrl>\\vn-file\DX Center\66.Support_WIP\6.Kyocera\Check short YC4\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>true</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>\\172.28.10.12\Share\18 IT\U23702%28quyetpv%29\PROGRAM\1.CANON\Station_Initialize_Boards\</UpdateUrl>
+    <ProductName>Station Initialize Boards</ProductName>
+    <PublisherName>quyetphamit%40gmail.com</PublisherName>
+    <SuiteName>UMC Electronics VietNam</SuiteName>
+    <MinimumRequiredVersion>1.0.0.0</MinimumRequiredVersion>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <TrustUrlParameters>true</TrustUrlParameters>
+    <ApplicationRevision>107</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>true</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <ExcludeDeploymentUrl>true</ExcludeDeploymentUrl>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>0A903A4CF10F7F2421996C39C4C6B44B08CEAE52</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net35\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business\Constant.cs" />
+    <Compile Include="Business\RankLedHelper.cs" />
+    <Compile Include="Business\StringExtension.cs" />
+    <Compile Include="Business\UmesHelper.cs" />
+    <Compile Include="Business\Validator.cs" />
+    <Compile Include="Business\WindowHelper.cs" />
+    <Compile Include="Business\Wow.cs" />
+    <Compile Include="Business\YaskawaHelper.cs" />
+    <Compile Include="Connected Services\ERPWebService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\PVSWebServiceReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\YaskawaService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\Model9D3.cs" />
+    <Compile Include="Entities\CommPort.cs" />
+    <Compile Include="Entities\Runtime.cs" />
+    <Compile Include="Entities\Settings.cs" />
+    <Compile Include="FormConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConfig.Designer.cs">
+      <DependentUpon>FormConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTest.Designer.cs">
+      <DependentUpon>FormTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Generic\GenericList.cs" />
+    <Compile Include="MasterCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterCheck.Designer.cs">
+      <DependentUpon>MasterCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NativeWin32.cs" />
+    <Compile Include="NetworkConnection.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sigleton\SingletonHelper.cs" />
+    <Compile Include="Sigleton\YaskawaWebService.cs" />
+    <Compile Include="Ultils.cs" />
+    <EmbeddedResource Include="FormConfig.resx">
+      <DependentUpon>FormConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTest.resx">
+      <DependentUpon>FormTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterCheck.resx">
+      <DependentUpon>MasterCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="CANON_Initialize_Boards_TemporaryKey.pfx" />
+    <None Include="Connected Services\ERPWebService\CheckShort_YC4.ERPWebService.ArrayOfTbl_test_logEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ERPWebService\CheckShort_YC4.ERPWebService.FeederEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ERPWebService\CheckShort_YC4.ERPWebService.FixtureEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ERPWebService\CheckShort_YC4.ERPWebService.HRMEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ERPWebService\CheckShort_YC4.ERPWebService.KyoMacAddrEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ERPWebService\CheckShort_YC4.ERPWebService.ResultEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ERPWebService\CheckShort_YC4.ERPWebService.tbl_test_logEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ERPWebService\CheckShort_YC4.ERPWebService.TestLogEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ERPWebService\CheckShort_YC4.ERPWebService.ViPackingLogEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ERPWebService\CheckShort_YC4.ERPWebService.VNFGEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ERPWebService\CheckShort_YC4.ERPWebService.WH_TokusaiEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ERPWebService\ERPWebService.wsdl" />
+    <None Include="Connected Services\PVSWebServiceReference\CheckShort_YC4.PVSWebServiceReference.ArrayOfString.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\PVSWebServiceReference\CheckShort_YC4.PVSWebServiceReference.BARCODE_RULESEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\PVSWebServiceReference\CheckShort_YC4.PVSWebServiceReference.BARCODE_RULE_ITEMSEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\PVSWebServiceReference\CheckShort_YC4.PVSWebServiceReference.Base_ModelsEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\PVSWebServiceReference\CheckShort_YC4.PVSWebServiceReference.BOARDSEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\PVSWebServiceReference\CheckShort_YC4.PVSWebServiceReference.ErpUserEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\PVSWebServiceReference\CheckShort_YC4.PVSWebServiceReference.InspectionOptionEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\PVSWebServiceReference\CheckShort_YC4.PVSWebServiceReference.INSPECTION_PROCESSESEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\PVSWebServiceReference\CheckShort_YC4.PVSWebServiceReference.INSPECTION_STATIONSEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\PVSWebServiceReference\CheckShort_YC4.PVSWebServiceReference.KYOCERAEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\PVSWebServiceReference\CheckShort_YC4.PVSWebServiceReference.MasterEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\PVSWebServiceReference\CheckShort_YC4.PVSWebServiceReference.ModelsEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\PVSWebServiceReference\CheckShort_YC4.PVSWebServiceReference.MuratasEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\PVSWebServiceReference\CheckShort_YC4.PVSWebServiceReference.NichiconEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\PVSWebServiceReference\CheckShort_YC4.PVSWebServiceReference.OrderItemEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\PVSWebServiceReference\CheckShort_YC4.PVSWebServiceReference.REPAIRING_LOGSEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\PVSWebServiceReference\CheckShort_YC4.PVSWebServiceReference.REPLACING_LOGSEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\PVSWebServiceReference\CheckShort_YC4.PVSWebServiceReference.ROLE_MEMBERSEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\PVSWebServiceReference\CheckShort_YC4.PVSWebServiceReference.TESTING_LOGSEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\PVSWebServiceReference\CheckShort_YC4.PVSWebServiceReference.USERSEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\PVSWebServiceReference\CheckShort_YC4.PVSWebServiceReference.WORK_ORDERSEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\PVSWebServiceReference\CheckShort_YC4.PVSWebServiceReference.WORK_ORDER_ITEMSEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\PVSWebServiceReference\CheckShort_YC4.PVSWebServiceReference.WORK_ORDER_PROCEDURESEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\PVSWebServiceReference\PVSWebService.wsdl" />
+    <None Include="Connected Services\YaskawaService\CheckShort_YC4.YaskawaService.PACKING_LOGSEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\YaskawaService\CheckShort_YC4.YaskawaService.PACKING_STATUSEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\YaskawaService\CheckShort_YC4.YaskawaService.YaskawaBoxItemsEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\YaskawaService\CheckShort_YC4.YaskawaService.YaskawaLabelDetailsEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\YaskawaService\CheckShort_YC4.YaskawaService.YaskawaModelEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\YaskawaService\YaskawaWebService.wsdl" />
+    <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\09-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barcode-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok-sign-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\send-receive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tools-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\umc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok-sign-161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refesh-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\send-receive1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder-saved-search-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-restart-16.png" />
+    <None Include="Resources\time.png" />
+    <None Include="Resources\rs-232_male_16px.png" />
+    <None Include="Resources\versions_16px.png" />
+    <None Include="Resources\copyright_16px.png" />
+    <None Include="Resources\Save.png" />
+    <None Include="Resources\ok-sign-163.png" />
+    <None Include="Resources\ok-sign-162.png" />
+    <None Include="Connected Services\PVSWebServiceReference\PVSWebService.disco" />
+    <None Include="Connected Services\PVSWebServiceReference\configuration91.svcinfo" />
+    <None Include="Connected Services\PVSWebServiceReference\configuration.svcinfo" />
+    <None Include="Connected Services\PVSWebServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Connected Services\YaskawaService\YaskawaWebService.disco" />
+    <None Include="Connected Services\YaskawaService\configuration91.svcinfo" />
+    <None Include="Connected Services\YaskawaService\configuration.svcinfo" />
+    <None Include="Connected Services\YaskawaService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Connected Services\ERPWebService\ERPWebService.disco" />
+    <None Include="Connected Services\ERPWebService\configuration91.svcinfo" />
+    <None Include="Connected Services\ERPWebService\configuration.svcinfo" />
+    <None Include="Connected Services\ERPWebService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="logo.ico" />
+    <None Include="Resources\plus-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\ERPWebService\" />
+    <WCFMetadataStorage Include="Connected Services\PVSWebServiceReference\" />
+    <WCFMetadataStorage Include="Connected Services\YaskawaService\" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

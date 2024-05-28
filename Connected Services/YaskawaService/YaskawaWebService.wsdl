@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s1="http://microsoft.com/wsdl/types/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:import namespace="http://microsoft.com/wsdl/types/" />
+      <s:element name="FindProduct">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="productID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FindProductResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FindProductResult" type="tns:YaskawaModelEntity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="YaskawaModelEntity">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:BaseEntity">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="ID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ModelNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ModelName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="GlobalCode" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="SortCode" nillable="true" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="DeleteMark" nillable="true" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="EnabledMark" nillable="true" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="CreateDate" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="0" maxOccurs="1" name="CreateUserId" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CreateUserName" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="ModifyDate" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="0" maxOccurs="1" name="ModifyUserId" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ModifyUserName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Type" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="IsLaser" nillable="true" type="s:boolean" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="BaseEntity" />
+      <s:element name="UpdateLabelDetail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="entity" type="tns:YaskawaLabelDetailsEntity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="YaskawaLabelDetailsEntity">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:BaseEntity">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="LabelId" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="FileId" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CompanyName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CustomerName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="BoxNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Local" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Model" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ModelByte" type="s:base64Binary" />
+              <s:element minOccurs="0" maxOccurs="1" name="LabelNumber" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Quantity" nillable="true" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="QuantityByte" type="s:base64Binary" />
+              <s:element minOccurs="0" maxOccurs="1" name="WONO" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="WONOByte" type="s:base64Binary" />
+              <s:element minOccurs="1" maxOccurs="1" name="WOQuantity" nillable="true" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="ShipDate" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="BoxID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CustPO" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CustPOByte" type="s:base64Binary" />
+              <s:element minOccurs="1" maxOccurs="1" name="BoxNumber" nillable="true" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="BoxTotal" nillable="true" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="BoxIDByte" type="s:base64Binary" />
+              <s:element minOccurs="1" maxOccurs="1" name="IsFinished" nillable="true" type="s:boolean" />
+              <s:element minOccurs="1" maxOccurs="1" name="FinishTime" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="FinishQuantity" nillable="true" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="IsPrinted" nillable="true" type="s:boolean" />
+              <s:element minOccurs="0" maxOccurs="1" name="Remark" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="FileName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="GlobalCode" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="GlobalCodeByte" type="s:base64Binary" />
+              <s:element minOccurs="0" maxOccurs="1" name="ShipPlace" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="CreateDate" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="0" maxOccurs="1" name="CreateUserId" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CreateUserName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ModifyUserId" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="ModifyDate" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="0" maxOccurs="1" name="ModifyUserName" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="UpdateLabelDetailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateLabelDetailResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetEntityYaskawaLabelDetailByBoxID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="boxId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetEntityYaskawaLabelDetailByBoxIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetEntityYaskawaLabelDetailByBoxIDResult" type="tns:YaskawaLabelDetailsEntity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetEntityYaskawaLabelDetailByOrderNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="orderNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetEntityYaskawaLabelDetailByOrderNoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetEntityYaskawaLabelDetailByOrderNoResult" type="tns:YaskawaLabelDetailsEntity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetYaskawaBoxItemsByBoardNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="boardNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetYaskawaBoxItemsByBoardNoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetYaskawaBoxItemsByBoardNoResult" type="tns:YaskawaBoxItemsEntity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="YaskawaBoxItemsEntity">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:BaseEntity">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="ID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="BoxID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="WONO" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Barcode" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ModelNo" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="CreateDate" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="0" maxOccurs="1" name="CreateUserId" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CreateUserName" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="ModifyDate" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="0" maxOccurs="1" name="ModifyUserId" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="CslConfirm" nillable="true" type="s:boolean" />
+              <s:element minOccurs="1" maxOccurs="1" name="ConfirmTime" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="0" maxOccurs="1" name="ConfirmName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ModifyUserName" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="Get_List_PACKING_LOGs_By_PackNO">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="packNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_List_PACKING_LOGs_By_PackNOResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_List_PACKING_LOGs_By_PackNOResult" type="tns:ArrayOfPACKING_LOGSEntity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfPACKING_LOGSEntity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="PACKING_LOGSEntity" nillable="true" type="tns:PACKING_LOGSEntity" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="PACKING_LOGSEntity">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:BaseEntity">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="BASE_NO" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="BOARD_NO" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CASE_NO" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CLIENT_NAME" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CUSTOMER_ID" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="ID" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="IS_REVERTED" nillable="true" type="s:boolean" />
+              <s:element minOccurs="0" maxOccurs="1" name="LINE_ID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="LOT_NO" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="MAC_NO" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="ORDER_ID" type="s1:guid" />
+              <s:element minOccurs="0" maxOccurs="1" name="ORDER_NO" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="PACK_NO" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="PLANT" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="PRODUCT_ID" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="UPDATE_TIME" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="0" maxOccurs="1" name="UPDATER_NAME" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="GetEntity_PACKING_STATUS_By_PackNO">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="packNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetEntity_PACKING_STATUS_By_PackNOResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetEntity_PACKING_STATUS_By_PackNOResult" type="tns:PACKING_STATUSEntity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="PACKING_STATUSEntity">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:BaseEntity">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="CAPACITY" nillable="true" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="CLIENT_NAME" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="ID" type="s1:guid" />
+              <s:element minOccurs="0" maxOccurs="1" name="LOT_NO" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="ORDER_ID" type="s1:guid" />
+              <s:element minOccurs="0" maxOccurs="1" name="ORDER_NO" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="PACK_NO" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="PLANT" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="PRODUCT_ID" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="QUANTITY" nillable="true" type="s:double" />
+              <s:element minOccurs="0" maxOccurs="1" name="UPDATER_NAME" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="UPDATE_TIME" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="IS_PRINTED" nillable="true" type="s:boolean" />
+              <s:element minOccurs="1" maxOccurs="1" name="PRINT_TIME" nillable="true" type="s:dateTime" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="GetListYaskawaBoxItemsByBoxID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="boxId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetListYaskawaBoxItemsByBoxIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetListYaskawaBoxItemsByBoxIDResult" type="tns:ArrayOfYaskawaBoxItemsEntity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfYaskawaBoxItemsEntity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="YaskawaBoxItemsEntity" nillable="true" type="tns:YaskawaBoxItemsEntity" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetListYaskawaBoxItemsByBoxIDJson">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="boxId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetListYaskawaBoxItemsByBoxIDJsonResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetListYaskawaBoxItemsByBoxIDJsonResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckBarcodeExists">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="barcode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckBarcodeExistsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckBarcodeExistsResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YaskawaBoxItemsRemoveForm">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="barcode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YaskawaBoxItemsRemoveFormResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="YaskawaBoxItemsRemoveFormResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YaskawaItemsSaveForm">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="keyValue" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="entity" type="tns:YaskawaBoxItemsEntity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YaskawaItemsSaveFormResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="YaskawaItemsSaveFormResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YaskawaBoxItemsRemoveFormByBoxID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="boxId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YaskawaBoxItemsRemoveFormByBoxIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="YaskawaBoxItemsRemoveFormByBoxIDResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://microsoft.com/wsdl/types/">
+      <s:simpleType name="guid">
+        <s:restriction base="s:string">
+          <s:pattern value="[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}" />
+        </s:restriction>
+      </s:simpleType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="FindProductSoapIn">
+    <wsdl:part name="parameters" element="tns:FindProduct" />
+  </wsdl:message>
+  <wsdl:message name="FindProductSoapOut">
+    <wsdl:part name="parameters" element="tns:FindProductResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateLabelDetailSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateLabelDetail" />
+  </wsdl:message>
+  <wsdl:message name="UpdateLabelDetailSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateLabelDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetEntityYaskawaLabelDetailByBoxIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetEntityYaskawaLabelDetailByBoxID" />
+  </wsdl:message>
+  <wsdl:message name="GetEntityYaskawaLabelDetailByBoxIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetEntityYaskawaLabelDetailByBoxIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetEntityYaskawaLabelDetailByOrderNoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetEntityYaskawaLabelDetailByOrderNo" />
+  </wsdl:message>
+  <wsdl:message name="GetEntityYaskawaLabelDetailByOrderNoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetEntityYaskawaLabelDetailByOrderNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetYaskawaBoxItemsByBoardNoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetYaskawaBoxItemsByBoardNo" />
+  </wsdl:message>
+  <wsdl:message name="GetYaskawaBoxItemsByBoardNoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetYaskawaBoxItemsByBoardNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_List_PACKING_LOGs_By_PackNOSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_List_PACKING_LOGs_By_PackNO" />
+  </wsdl:message>
+  <wsdl:message name="Get_List_PACKING_LOGs_By_PackNOSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_List_PACKING_LOGs_By_PackNOResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetEntity_PACKING_STATUS_By_PackNOSoapIn">
+    <wsdl:part name="parameters" element="tns:GetEntity_PACKING_STATUS_By_PackNO" />
+  </wsdl:message>
+  <wsdl:message name="GetEntity_PACKING_STATUS_By_PackNOSoapOut">
+    <wsdl:part name="parameters" element="tns:GetEntity_PACKING_STATUS_By_PackNOResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetListYaskawaBoxItemsByBoxIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetListYaskawaBoxItemsByBoxID" />
+  </wsdl:message>
+  <wsdl:message name="GetListYaskawaBoxItemsByBoxIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetListYaskawaBoxItemsByBoxIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetListYaskawaBoxItemsByBoxIDJsonSoapIn">
+    <wsdl:part name="parameters" element="tns:GetListYaskawaBoxItemsByBoxIDJson" />
+  </wsdl:message>
+  <wsdl:message name="GetListYaskawaBoxItemsByBoxIDJsonSoapOut">
+    <wsdl:part name="parameters" element="tns:GetListYaskawaBoxItemsByBoxIDJsonResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckBarcodeExistsSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckBarcodeExists" />
+  </wsdl:message>
+  <wsdl:message name="CheckBarcodeExistsSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckBarcodeExistsResponse" />
+  </wsdl:message>
+  <wsdl:message name="YaskawaBoxItemsRemoveFormSoapIn">
+    <wsdl:part name="parameters" element="tns:YaskawaBoxItemsRemoveForm" />
+  </wsdl:message>
+  <wsdl:message name="YaskawaBoxItemsRemoveFormSoapOut">
+    <wsdl:part name="parameters" element="tns:YaskawaBoxItemsRemoveFormResponse" />
+  </wsdl:message>
+  <wsdl:message name="YaskawaItemsSaveFormSoapIn">
+    <wsdl:part name="parameters" element="tns:YaskawaItemsSaveForm" />
+  </wsdl:message>
+  <wsdl:message name="YaskawaItemsSaveFormSoapOut">
+    <wsdl:part name="parameters" element="tns:YaskawaItemsSaveFormResponse" />
+  </wsdl:message>
+  <wsdl:message name="YaskawaBoxItemsRemoveFormByBoxIDSoapIn">
+    <wsdl:part name="parameters" element="tns:YaskawaBoxItemsRemoveFormByBoxID" />
+  </wsdl:message>
+  <wsdl:message name="YaskawaBoxItemsRemoveFormByBoxIDSoapOut">
+    <wsdl:part name="parameters" element="tns:YaskawaBoxItemsRemoveFormByBoxIDResponse" />
+  </wsdl:message>
+  <wsdl:portType name="YaskawaWebServiceSoap">
+    <wsdl:operation name="FindProduct">
+      <wsdl:input message="tns:FindProductSoapIn" />
+      <wsdl:output message="tns:FindProductSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateLabelDetail">
+      <wsdl:input message="tns:UpdateLabelDetailSoapIn" />
+      <wsdl:output message="tns:UpdateLabelDetailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEntityYaskawaLabelDetailByBoxID">
+      <wsdl:input message="tns:GetEntityYaskawaLabelDetailByBoxIDSoapIn" />
+      <wsdl:output message="tns:GetEntityYaskawaLabelDetailByBoxIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEntityYaskawaLabelDetailByOrderNo">
+      <wsdl:input message="tns:GetEntityYaskawaLabelDetailByOrderNoSoapIn" />
+      <wsdl:output message="tns:GetEntityYaskawaLabelDetailByOrderNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetYaskawaBoxItemsByBoardNo">
+      <wsdl:input message="tns:GetYaskawaBoxItemsByBoardNoSoapIn" />
+      <wsdl:output message="tns:GetYaskawaBoxItemsByBoardNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_List_PACKING_LOGs_By_PackNO">
+      <wsdl:input message="tns:Get_List_PACKING_LOGs_By_PackNOSoapIn" />
+      <wsdl:output message="tns:Get_List_PACKING_LOGs_By_PackNOSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEntity_PACKING_STATUS_By_PackNO">
+      <wsdl:input message="tns:GetEntity_PACKING_STATUS_By_PackNOSoapIn" />
+      <wsdl:output message="tns:GetEntity_PACKING_STATUS_By_PackNOSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetListYaskawaBoxItemsByBoxID">
+      <wsdl:input message="tns:GetListYaskawaBoxItemsByBoxIDSoapIn" />
+      <wsdl:output message="tns:GetListYaskawaBoxItemsByBoxIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetListYaskawaBoxItemsByBoxIDJson">
+      <wsdl:input message="tns:GetListYaskawaBoxItemsByBoxIDJsonSoapIn" />
+      <wsdl:output message="tns:GetListYaskawaBoxItemsByBoxIDJsonSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckBarcodeExists">
+      <wsdl:input message="tns:CheckBarcodeExistsSoapIn" />
+      <wsdl:output message="tns:CheckBarcodeExistsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YaskawaBoxItemsRemoveForm">
+      <wsdl:input message="tns:YaskawaBoxItemsRemoveFormSoapIn" />
+      <wsdl:output message="tns:YaskawaBoxItemsRemoveFormSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YaskawaItemsSaveForm">
+      <wsdl:input message="tns:YaskawaItemsSaveFormSoapIn" />
+      <wsdl:output message="tns:YaskawaItemsSaveFormSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YaskawaBoxItemsRemoveFormByBoxID">
+      <wsdl:input message="tns:YaskawaBoxItemsRemoveFormByBoxIDSoapIn" />
+      <wsdl:output message="tns:YaskawaBoxItemsRemoveFormByBoxIDSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="YaskawaWebServiceSoap" type="tns:YaskawaWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="FindProduct">
+      <soap:operation soapAction="http://tempuri.org/FindProduct" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateLabelDetail">
+      <soap:operation soapAction="http://tempuri.org/UpdateLabelDetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEntityYaskawaLabelDetailByBoxID">
+      <soap:operation soapAction="http://tempuri.org/GetEntityYaskawaLabelDetailByBoxID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEntityYaskawaLabelDetailByOrderNo">
+      <soap:operation soapAction="http://tempuri.org/GetEntityYaskawaLabelDetailByOrderNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetYaskawaBoxItemsByBoardNo">
+      <soap:operation soapAction="http://tempuri.org/GetYaskawaBoxItemsByBoardNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_List_PACKING_LOGs_By_PackNO">
+      <soap:operation soapAction="http://tempuri.org/Get_List_PACKING_LOGs_By_PackNO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEntity_PACKING_STATUS_By_PackNO">
+      <soap:operation soapAction="http://tempuri.org/GetEntity_PACKING_STATUS_By_PackNO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetListYaskawaBoxItemsByBoxID">
+      <soap:operation soapAction="http://tempuri.org/GetListYaskawaBoxItemsByBoxID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetListYaskawaBoxItemsByBoxIDJson">
+      <soap:operation soapAction="http://tempuri.org/GetListYaskawaBoxItemsByBoxIDJson" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckBarcodeExists">
+      <soap:operation soapAction="http://tempuri.org/CheckBarcodeExists" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YaskawaBoxItemsRemoveForm">
+      <soap:operation soapAction="http://tempuri.org/YaskawaBoxItemsRemoveForm" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YaskawaItemsSaveForm">
+      <soap:operation soapAction="http://tempuri.org/YaskawaItemsSaveForm" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YaskawaBoxItemsRemoveFormByBoxID">
+      <soap:operation soapAction="http://tempuri.org/YaskawaBoxItemsRemoveFormByBoxID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="YaskawaWebServiceSoap12" type="tns:YaskawaWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="FindProduct">
+      <soap12:operation soapAction="http://tempuri.org/FindProduct" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateLabelDetail">
+      <soap12:operation soapAction="http://tempuri.org/UpdateLabelDetail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEntityYaskawaLabelDetailByBoxID">
+      <soap12:operation soapAction="http://tempuri.org/GetEntityYaskawaLabelDetailByBoxID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEntityYaskawaLabelDetailByOrderNo">
+      <soap12:operation soapAction="http://tempuri.org/GetEntityYaskawaLabelDetailByOrderNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetYaskawaBoxItemsByBoardNo">
+      <soap12:operation soapAction="http://tempuri.org/GetYaskawaBoxItemsByBoardNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_List_PACKING_LOGs_By_PackNO">
+      <soap12:operation soapAction="http://tempuri.org/Get_List_PACKING_LOGs_By_PackNO" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEntity_PACKING_STATUS_By_PackNO">
+      <soap12:operation soapAction="http://tempuri.org/GetEntity_PACKING_STATUS_By_PackNO" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetListYaskawaBoxItemsByBoxID">
+      <soap12:operation soapAction="http://tempuri.org/GetListYaskawaBoxItemsByBoxID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetListYaskawaBoxItemsByBoxIDJson">
+      <soap12:operation soapAction="http://tempuri.org/GetListYaskawaBoxItemsByBoxIDJson" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckBarcodeExists">
+      <soap12:operation soapAction="http://tempuri.org/CheckBarcodeExists" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YaskawaBoxItemsRemoveForm">
+      <soap12:operation soapAction="http://tempuri.org/YaskawaBoxItemsRemoveForm" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YaskawaItemsSaveForm">
+      <soap12:operation soapAction="http://tempuri.org/YaskawaItemsSaveForm" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YaskawaBoxItemsRemoveFormByBoxID">
+      <soap12:operation soapAction="http://tempuri.org/YaskawaBoxItemsRemoveFormByBoxID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="YaskawaWebService">
+    <wsdl:port name="YaskawaWebServiceSoap" binding="tns:YaskawaWebServiceSoap">
+      <soap:address location="http://172.28.10.17:99/Service/YaskawaWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="YaskawaWebServiceSoap12" binding="tns:YaskawaWebServiceSoap12">
+      <soap12:address location="http://172.28.10.17:99/Service/YaskawaWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
